@@ -1,0 +1,104 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[10pt,a4paper]{moderncv}
+
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{marvosym}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+\urlstyle{sf}
+
+
+% personal data
+\firstname{Akshay}
+\familyname{Chennupati}
+\address{OBH 47}{IIIT Hyderabad,A.P}    % optional, remove the line if not wanted
+\mobile{+91-779-900-6621}                    % optional, remove the line if not wanted
+\email{akshay.chnnupati@students.iiit.ac.in}                      % optional, remove the line if not wanted
+%\extrainfo{\Mundus~\url{http://web.iiit.ac.in/\~chanakya.aalla}}                % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+
+\section{Education}
+\cventry{2010--}{B.Tech in Computer Science }{\newline{} \textit{International Institute of Information Technology (IIIT), Hyderabad}}{}{}{}
+\cvline{cgpa}{\small 7.28/10.0}
+\cventry{2008--2010}{Senior Secondary}{Sri Chaitanya Jr College}{Hyderabad,India}{97.1\%}{}
+\cventry{2008}{Secondary}{St.Mary's High School}{Hyderabad,A.P,India }{88.5\%}{}  % arguments 3 to 6 can be left empty
+
+
+
+\section{Technical Experience}
+\subsection{\small Extremely Proficient With}
+\cvline{languages}{C, C++, Python, JavaScript, HTML}
+\cvline{technologies}{ MySQL, \LaTeX{}, Bash , Svn, Git, Vim, Web2py, Arch/Debian Linux, Windows 7}
+\subsection{\small Have Moderate Experience With}
+\cvline{languages}{Java, Python, Scheme, JavaScript}
+\cvline{technologies}{Apache Web Server}
+
+\section{Relevant Coursework}
+\cvline{undergrad}{Software Structure and Design, Introduction to Databases, Artificial Intelligence, Digital Signals Analysis and Application,Algorithms, Operating Systems, Computer Networks \& Data Structures}
+\cvline{grad level}{Principles Of Programming Languages, \newline{} Principles of Information Security \& Statistical Methods in Artificial Intelligence}
+
+
+%\section{Research Work}
+%\cvline{current}{Working on unsupervised Topic Modelling Algorithm based on frequent itemset clustering and spectral clustering of bi-partite graphs}{}
+%\cvline{advisor}{\small Dr.Vikram Pudi}
+
+
+
+\section{Projects}
+\cventry{}{Concurrent Priority queues}{Ongoing}{.........................Prof R.Govindarajulu}{\newline{}Implement concurrent priority queues using heaps}{completion expected by April'13}{}
+\cventry{}{3D evacuation model of a building in JAVA}{}{........................................Prof Raghu Reddy}{\newline{}Implemented an evacuation model for a multi-storeyed building}{}{}
+\cventry{}{3D Game}{}{.............................................................................Prof P.J. Narayanan}{\newline{} Implemented a 3-Dimensional Racing game in OpenGL from scratch}{}{}
+\cventry{}{Proxy Server}{}{..........................................................Prof Bezwada Bruhadeshwar}{\newline{} Wrote an multi-threaded HTTP Proxy server in C++}{}{}
+\cventry{}{Shell}{}{.................................................................Prof Bezwada Bruhadeshwar}{\newline{} Implemented an working bash shell with redirection, pipes etc.}{}{}
+\cventry{}{2D Game}{}{.............................................................................Prof P.J. Narayanan}{\newline{} Implemented a limited functionality Angry Birds game for linux using openGL}{}{}
+\cventry{}{ERP for Hostel Administration}{Course Project}{..........................Prof P.Krishna Reddy}{\newline{}Built an Enterprise Resource Planning for Hostel Administration using SQL. }{}{}
+\cventry{}{Red Black Trees}{Mini Project}{..............................Prof R.Govindarajulu}{\newline{} Implemented RedBlack trees in C++ and construced the trees graphically using python.}{}{}
+\cventry{}{Reader Writers problem}{Mini Project}{............................Prof R.Govindarajulu}{\newline{} Implemented code for Readers-Writers problem in Java.}{}{}
+
+
+
+
+\section{Achievements}
+\cvline{}{12th Rank in EAMCET (State level Engineering Entrance Examination in Andhra Pradesh)}
+\cvline{}{1201 Rank in AIEEE (All India Engineering Entrance Examination}
+		
+\subsection{}
+\newline{}
+{\small I hereby declare that the above information is correct to the best of my knowledge}{}{}
+\newline{}
+{\small Last Updated March 10th,2013}{}{}{}
+
+
+\end{document}

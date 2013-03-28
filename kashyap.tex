@@ -13,14 +13,14 @@
 \usepackage{marvosym}
 
 % moderncv themes
-\moderncvtheme[grey]{roman}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[green]{classic}                % idem
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -29,12 +29,12 @@
 
 
 % personal data
-\firstname{Kashyap Murthy}
-\familyname{Sakalabhaktula}
+\firstname{Kashyap}
+\familyname{Murthy}
 \address{OBH 43}{IIIT Hyderabad,A.P}    % optional, remove the line if not wanted
 \mobile{+91-789-352-0028}                    % optional, remove the line if not wanted
 \email{kashyap.s@students.iiit.ac.in}                      % optional, remove the line if not wanted
-\extrainfo{\Mundus~\url{http://web.iiit.ac.in/\~kashyap.s}}                % optional, remove the line if not wanted
+%\extrainfo{\Mundus~\url{http://web.iiit.ac.in/\~chanakya.aalla}}                % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -50,53 +50,68 @@
 
 
 \section{Education}
-\cventry{2010--}{B.Tech (Hons.) \& M.S. by Research in Computer Science (Dual Degree)}{\newline{} \textit{International Institute of Information Technology (IIIT), Hyderabad}}{}{}{}
-\cvline{cgpa}{\small 6.35/10.0}
-\cventry{2008--2010}{Senior Secondary}{Vijay Ratna Junior College}{Hyderabad,India}{94.7\%}{}
+\cventry{2010--}{B.Tech in Computer Science }{\newline{} \textit{International Institute of Information Technology (IIIT), Hyderabad}}{}{}{}
+\cvline{cgpa}{\small 7.51/10.0}
+\cventry{2008--2010}{Senior Secondary}{Vijaya Ratna Jr College}{Hyderabad,India}{94.7\%}{}
 \cventry{2008}{ICSE}{Johnson Grammar School}{Hyderabad,A.P,India }{89.42\%}{}  % arguments 3 to 6 can be left empty
 
 
-\section{Experience}
-\cventry{2012--}{Software Developer}{Computational Core for Plant Metabolomics}{IIIT Hyderabad}{\newline{} Funded by Department of Bio Technology India, This project aims to create a unified metabolite database and provide tools for analysis and predicting networks of metabolite formation, analysis and storage of metabolites}{Designed the database, currently working on analyzing and prediction of metabolite networks}
-\cventry{2012--}{System Engineer}{Computational Core for Plant Metabolomics}{IIIT Hyderabad}{}{}
-\cventry{Spring 2013}{Teaching Assistant}{Computer \& Scripting -2}{IIIT Hyderabad}{\newline{} The course introduces a diverse variety of topics like scripting in Python and Bash, version control with SVN/Git, makefiles, basic Networking and Security, OOP, Functional Programming, typesetting with \LaTeX, Emacs org-mode etc.}{Helped in designing and teaching the course and lab content} 
 
 \section{Technical Experience}
 \subsection{\small Extremely Proficient With}
-\cvline{languages}{C, C++, Python, PHP, JavaScript, HTML, CSS, AJAX}
-\cvline{technologies}{ MySQL, SQLite, \LaTeX{}, Bash , Svn, Git, Vim, Web2py, Arch/Debian Linux, Windows 7}
+\cvline{languages}{C, C++, Python, HTML, PHP}
+\cvline{technologies}{ MySQL, \LaTeX{}, Bash , Svn, Git, Eclipse, Android, Vim, Arch/Debian Linux, Gimp, Struts2}
 \subsection{\small Have Moderate Experience With}
-\cvline{languages}{Java, Scheme, R, Scala}
-\cvline{technologies}{Apache Web Server, Apache Lucene, Apache HBase, jQuery, Tornado, Sphinx}
+\cvline{languages}{Java, Python, Scheme, JavaScript}
+\cvline{technologies}{Apache Web Server,}
 
 \section{Relevant Coursework}
-\cvline{undergrad}{Software Structure and Design, Introduction to Databases, Artificial Intelligence, Principles of Programming Languages,Algorithms \& Data Structures}
-\cvline{grad level}{Database Systems Implementation, Advances in Database Systems, \newline{} Data Warehousing \& Data Mining, Optimization Methods, Statistical Methods in Artificial Intelligence}
+\cvline{undergrad}{Software Structure and Design, Introduction to Databases, Artificial Intelligence, Digital Signals Analysis and Application,Algorithms, Operating Systems, Computer Networks \& Data Structures}
+\cvline{grad level}{Principles Of Programming Languages,Software Engineering \newline{} Database Systems \& Compilers}
 
 
-\section{Research Work}
-\cvline{current}{Working on unsupervised Topic Modelling Algorithm based on frequent itemset clustering and spectral clustering of bi-partite graphs}{}
-\cvline{advisor}{\small Dr.Vikram Pudi}
+%\section{Research Work}
+%\cvline{current}{Working on unsupervised Topic Modelling Algorithm based on frequent itemset clustering and spectral clustering of bi-partite graphs}{}
+%\cvline{advisor}{\small Dr.Vikram Pudi}
 
 
 
 \section{Projects}
-\cventry{}{Box Office Predictor}{Self-Mentored}{}{\newline{}An application with a web front-end, capable of predicting the box-office gross. Improved the accuracy over 13.5\% by using an ensemble of various prediction models}{}{}
-\cventry{}{Distributed Database Implementation}{Ongoing}{.........................Prof Kamal Karlapalem}{\newline{}Implement an Distributed Database System with an unified SQL interface over given data which is partitioned across three machines, running mysql and HBase}{completion expected by April'13}{}
-\cventry{}{Database Components}{Course Project}{...........................................Prof P.Krishna Reddy}{\newline{}Implemented Duplicate Elimination, Multiway merge sort, B+ Tree indexing, Hash Join and Sort-Merge Join Algorithms using C++}{}{}
-\cventry{}{Data Crawler}{}{.....................................................................................Prof Vikram Pudi}{\newline{} An lazy-crawler which profiles research data by cross-checking from various external sources like Google Scholar,ACM,CiteseerX,DBLP etc}{}{}
-\cventry{}{Scalable QA System}{}{.........................................................................Prof Raghu Reddy}{\newline{}Implemented an Question-Answer Portal based on the lines of Stackoverflow, supporting the ability to test yourself by automatic quiz generator}{}{}
-\cventry{}{3D Game}{}{...........................................................................................Prof P.J. Narayanan}{\newline{} Implemented a 3-Dimensional Racing game in OpenGL from scratch}{}{}
-\cventry{}{Proxy Server}{}{........................................................................Prof Bezwada Bruhadeshwar}{\newline{} Wrote an multi-threaded HTTP Proxy server in C++}{}{}
-\cventry{}{Shell}{}{.....................................................................................Prof Bezwada Bruhadeshwar}{\newline{} Implemented an working bash shell with redirection, pipes etc.}{}{}
-\cventry{}{2D Game}{}{..........................................................................................Prof P.J. Narayanan}{\newline{} Implemented a limited functionality Angry Birds game for linux using openGL}{}{}
+\cventry{}{Socionity}{RA,Ongoing}{.....................................Prof Navjyothi,Prof Raghu Reddy}{\newline{}Research Assistant for Socionity,Grant-in-aid Project from DoIT(Ministry of Communication and Information) to Center for Exact Humanities, IIIT-H}{}{}
+\cventry{}{Pugmarks}{}{................................................Prof Navjyothi,Prof Raghu Reddy}{\newline{}an application which captures GPS of locations and aids the user to tag photos, videos and audio along with the GPS.}{}{}
+\cventry{}{Tool for agricultural Expert}{Course Project}{.........................Prof P.Krishna Reddy}{\newline{}Developed for E-sagu,it fetches the representation from set of data}{}{}
+\cventry{}{3D Game}{}{............................................................................Prof P.J. Narayanan}{\newline{}Implemented a 3-Dimensional Racing game in OpenGL from scratch}{}{}
+\cventry{}{Proxy Server}{}{..........................................................Prof Bezwada Bruhadeshwar}{\newline{}Wrote an multi-threaded HTTP Proxy server in C++}{}{}
+\cventry{}{Shell}{}{.................................................................Prof Bezwada Bruhadeshwar}{\newline{}Implemented an working bash shell with redirection, pipes etc.}{}{}
+\cventry{}{2D Game}{}{.............................................................................Prof P.J. Narayanan}{\newline{}Implemented a limited functionality Angry Birds game for linux using openGL}{}{}
+\cventry{}{Online Review System}{pilot/Demo Project}{................................Prof Raghu Reddy}{\newline{}Implemented a review tool for a hiearchy of 4 users}{}{}
+\cventry{}{Obstacle Avoiding Robot}{}{.............................................Prof Madhava Krishna}{\newline{}Implemented a Obstacle avoiding algorithm over realtime robots}{}{}
+
+}
+
+\section{Research Work}
+\cvline{}{Study on effect of narrative on the empathic emotions of people}{}
+\cvline{}{\small Ms.Kavita Vemuri}{}
+\cvline{}{\small Paper accepted at SCSMI Conference}{}
+\cvline{}{Working on developing a common standard for keyboard mapping for screen reader softwares}{}
+\cvline{}{\small Dr.Kishore Prahallad}{}
+
+\section{Postions of Responsibilty}
+\cvline{}{Member of Parliament(2012-2013), the main student body forming the link between the faculty and the student community of IIIT Hyderabad}{}
+\cvline{}{Member of the Core Sponsorship Team - Felicity 2013}{}
+\cvline{}{Member of the Core Organizing Team - Felicity 2013,2012, Organized and managed various events and other work during Felicity.}{}
 
 
+
+\section{Achievements}
+\cvline{}{1655 Rank in AIEEE (All India Engineering Entrance Examination-2010), Out of 1.4 Million who gave the examination}
+\cvline{}{6552 Rank in IIT-JEE (IIT Joint Entrance Examination-2010)}
+		
 \subsection{}
 \newline{}
 {\small I hereby declare that the above information is correct to the best of my knowledge}{}{}
 \newline{}
-{\small Last Updated Jan 31,2013}{}{}{}
+{\small Last Updated March 11th,2013}{}{}{}
 
 
 \end{document}
