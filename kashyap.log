@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.8)  28 MAR 2013 10:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.8)  10 OCT 2013 14:14
 entering extended mode
  %&-line parsing enabled.
 **kashyap.tex
@@ -658,65 +658,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--67
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--71
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.74 ... to Center for Exact Humanities, IIIT-H}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.74 ... to Center for Exact Humanities, IIIT-H}{}
+                                                  {}
+? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--89
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.77 ...s, videos and audio along with the GPS.}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.77 ...s, videos and audio along with the GPS.}{}
+                                                  {}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.78 ...tandards for shortcut keyboard mappings}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.78 ...tandards for shortcut keyboard mappings}{}
+                                                  {}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.79 ...avoiding algorithm over realtime robots}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.79 ...avoiding algorithm over realtime robots}{}
+                                                  {}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.80 ...onal Racing game in OpenGL from scratch}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.80 ...onal Racing game in OpenGL from scratch}{}
+                                                  {}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   P
+l.81 ...multi-threaded HTTP Proxy server in C++}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   P
+l.81 ...multi-threaded HTTP Proxy server in C++}{}
+                                                  {}
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
 
  []
 
 ! Too many }'s.
-l.90 }
+l.83 }
       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--98
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 99--103
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--109
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
 
  []
 
-[2] (./kashyap.aux) ) 
+[2] (./kashyap.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5289 strings out of 495061
- 75810 string characters out of 1182622
- 157618 words of memory out of 3000000
- 8347 multiletter control sequences out of 15000+50000
- 46705 words of font info for 36 fonts, out of 3000000 for 9000
+ 5288 strings out of 495061
+ 75799 string characters out of 1182622
+ 155618 words of memory out of 3000000
+ 8346 multiletter control sequences out of 15000+50000
+ 43934 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,45p,294b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
-/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmro8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss1
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on kashyap.pdf (2 pages, 207722 bytes).
+ 45i,12n,45p,265b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
+public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+ssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
+Output written on kashyap.pdf (2 pages, 196165 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
