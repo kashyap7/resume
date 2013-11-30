@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.8)  10 OCT 2013 14:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.8)  16 OCT 2013 11:10
 entering extended mode
  %&-line parsing enabled.
 **kashyap.tex
@@ -653,150 +653,151 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 52--59
 
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.74 ... to Center for Exact Humanities, IIIT-H}{}
+l.71 ... to Center for Exact Humanities, IIIT-H}{}
                                                   {}
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.74 ... to Center for Exact Humanities, IIIT-H}{}
+l.71 ... to Center for Exact Humanities, IIIT-H}{}
+                                                  {}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   S
+l.72 ...rse Differential Equation, Monsoon 2013}{}
+                                                  {}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   S
+l.72 ...rse Differential Equation, Monsoon 2013}{}
                                                   {}
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
 
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.77 ...s, videos and audio along with the GPS.}{}
-                                                  {}
+l.80 ...ideos and audio along with the GPS.}{}{}{}
+                                                  
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.77 ...s, videos and audio along with the GPS.}{}
-                                                  {}
+l.80 ...ideos and audio along with the GPS.}{}{}{}
+                                                  
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.78 ...tandards for shortcut keyboard mappings}{}
-                                                  {}
+l.81 ...ndards for shortcut keyboard mappings}{}{}
+                                                  
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.78 ...tandards for shortcut keyboard mappings}{}
-                                                  {}
+l.81 ...ndards for shortcut keyboard mappings}{}{}
+                                                  
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.79 ...avoiding algorithm over realtime robots}{}
-                                                  {}
+l.82 ...oiding algorithm over realtime robots}{}{}
+                                                  
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.79 ...avoiding algorithm over realtime robots}{}
-                                                  {}
+l.82 ...oiding algorithm over realtime robots}{}{}
+                                                  
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.80 ...onal Racing game in OpenGL from scratch}{}
-                                                  {}
+l.83 ...al Racing game in OpenGL from scratch}{}{}
+                                                  
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.80 ...onal Racing game in OpenGL from scratch}{}
-                                                  {}
+l.83 ...al Racing game in OpenGL from scratch}{}{}
+                                                  
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    P
-l.81 ...multi-threaded HTTP Proxy server in C++}{}
-                                                  {}
+l.84 ...lti-threaded HTTP Proxy server in C++}{}{}
+                                                  
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    P
-l.81 ...multi-threaded HTTP Proxy server in C++}{}
-                                                  {}
+l.84 ...lti-threaded HTTP Proxy server in C++}{}{}
+                                                  
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
 ! Too many }'s.
-l.83 }
+l.86 }
       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 90--95
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
  []
 
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
-
- []
-
-[2] (./kashyap.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./kashyap.aux) ) 
 Here is how much of TeX's memory you used:
- 5288 strings out of 495061
- 75799 string characters out of 1182622
+ 5285 strings out of 495061
+ 75767 string characters out of 1182622
  155618 words of memory out of 3000000
- 8346 multiletter control sequences out of 15000+50000
+ 8345 multiletter control sequences out of 15000+50000
  43934 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,45p,265b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro8.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on kashyap.pdf (2 pages, 196165 bytes).
+ 45i,11n,45p,265b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/t
+exmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mro8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb
+>
+Output written on kashyap.pdf (2 pages, 198965 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
