@@ -6,8 +6,8 @@
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
-\documentclass[10pt,a4paper]{moderncv}
-
+\documentclass[roman]{moderncv}
+\usepackage{mathpazo}
 \usepackage{verbatim}
 \usepackage{hyperref}
 \usepackage{marvosym}
@@ -33,7 +33,7 @@
 \familyname{Murthy}
 \address{OBH 43}{IIIT Hyderabad,A.P}    % optional, remove the line if not wanted
 \mobile{+91-789-352-0028}                    % optional, remove the line if not wanted
-\email{kashyap.s@students.iiit.ac.in}                      % optional, remove the line if not wanted
+\email{kashyap.skash@gmail.com \\ kashyap.s@students.iiit.ac.in}
 %\extrainfo{}                % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
@@ -51,13 +51,14 @@
 
 \section{Education}
 \cventry{2010--}{B.Tech in Computer Science }{\newline{} \textit{International Institute of Information Technology (IIIT), Hyderabad}}{}{}{}
-\cvline{cgpa}{\small 7.51/10.0}
+\cvline{cgpa}{\small 7.65/10.0}
 \cventry{2008--2010}{Senior Secondary}{Vijaya Ratna Jr College}{Hyderabad,India}{94.7\%}{}
 \cventry{2008}{ICSE}{Johnson Grammar School}{Hyderabad,A.P,India }{89.42\%}{}  % arguments 3 to 6 can be left empty
+
+\section{Achievements}
+\cventry{}{Qualified for ACM ICPC Asia Regionals at Amritapuri,2013}{}{}{}{}
 \cventry{}{All India rank of 1655 out of 1.4 million candidates}{ AIEEE - All India Entrance Examination}{}{}{}
 \cventry{}{6552 Rank in IIT-JEE}{ (IIT Joint Entrance Examination-2010)}{}{}{}
-
-
 
 
 %\section{Relevant Coursework}
@@ -67,7 +68,9 @@
 
 
 \section{Work Experience}
-\cventry{}{Socionity}{RA,Ongoing}{\hspace Prof Navjyothi,Prof Raghu Reddy}{\newline{}Research Assistant for Socionity,Grant-in-aid Project from DoIT(Ministry of Communication and Information) to Center for Exact Humanities, IIIT-H}{}{}
+\cventry{2012--}{Research Assistant, Socionity}{}{\hspace Prof Navjyothi,Prof Raghu Reddy}{\newline{}Research Assistant for Socionity,Grant-in-aid Project from DoIT(Ministry of Communication and Information) to Center for Exact Humanities, IIIT-H}{}
+\cventry{2013-2014}{Teaching Assistant, Differential Equations}{}{\hspace Prof Shobha Oruganti}{\newline{} Helped in designing and conducting classes}{}{}
+\cventry{2014--}{Teaching Assistant, e-Governance}{}{\hspace R.K.Bagga, P.Harish Iyer}{\newline{} Help out in conducting the course and managing the course projects.}{}{}
 
 \section{Research Work}
 \cvline{}{Study on effect of narrative on the empathic emotions of people}{}
@@ -75,29 +78,33 @@
 \cvline{}{\small Paper accepted at SCSMI Conference}{}
 
 \section{Projects}
-\cventry{ Pugmarks}{\hspace Prof Navjyothi,Prof Raghu Reddy}{\newline{} an application which captures GPS of locations and aids the user to tag photos, videos and audio along with the GPS.}{}{}{}
-\cventry{ Standards for screen readers}{Group Project(2)}{\hspace Prof Kishore Prahallad}{\newline{}Come with standards for shortcut keyboard mappings}{}{}
-\cventry{ Obstacle Avoiding Robot}{Course Project}{\hspace Prof Madhava Krishna}{\newline{}Implemented a Obstacle avoiding algorithm over realtime robots}{}{}
-\cventry{ 3D Game}{Course Project}{\hspace Prof P.J. Narayanan}{\newline{}Implemented a 3-Dimensional Racing game in OpenGL from scratch}{}{}
-\cventry{ Proxy Server}{Course Project}{\hspace Prof Bezwada Bruhadeshwar}{\newline{}Wrote an multi-threaded HTTP Proxy server in C++}{}{}
+\cventry{}{ Pugmarks}{Prof Navjyothi, Prof Raghu Reddy}{\newline{}Built a geographical location based application which accumulates meta data about an place by means of crowdsourcing}{   \small team size 2}{}
+%\cventry{ Pugmarks}{\hspace Prof Navjyothi,Prof Raghu Reddy}{\newline{} an application which captures GPS of locations and aids the user to tag photos, videos and audio along with the GPS.}{}{}{}
+\cventry{}{ Standards for screen readers}{ Prof Kishore Prahallad}{\newline{}Investigate the shortcomings of present day screen readers, deviced a new standard for keyboard interfacing mechanism}{   \small team size 2}{}
+\cventry{}{ Wikipedia Search Engine}{Prof Vasudeva Varma}{\newline{}A realtime information retrieval system on Wikipedia data of around 40GB}{}{}
+\cventry{}{ Topic-Modeling in Social Media}{Prof Vasudeva Varma}{\newline{}We came up with an efficient topic modeling system by developing the LDA model for the most influential entities}{ \small team size 4 }{}
+\newpage{}
 
-}
+\section{Mini Project}
+\cventry{}{ Bash Emulator}{\hspace Prof Bezwada Bruhadeshwar}{\newline{}Implemented a bash shell emulator}{}{}
+\cventry{}{ Face Recognition Application}{\hspace Anoop Namboodiri}{\newline{} Built a basic face recognition system, implemented a PCA for feature extraction}{}{}
+\cventry{}{ Obstacle Avoiding Robot}{\hspace Prof Madhava Krishna}{\newline{}Implemented a real time obstacle avoiding algorithm for navigational robot}{}{}
 
 
 \section{Skill Set}
-\subsection{\small Proficient With}
+\subsection{}
 \cvline{languages}{C, C++ ,HTML ,PHP}
 \cvline{technologies}{ MySQL ,Eclipse ,Android ,Struts2}
 \subsection{\small Have Moderate Experience With}
 \cvline{languages}{Java, Python, JavaScript}
 
-\clearpage
 
-\section{ Miscellaneous - Postions of Responsibilty}
-\cvline{}{Member of Core Council Parliament(2013-),Main component of the Parliament}{}
-\cvline{}{Member of Parliament(2012-2013), the main student body of IIIT Hyderabad}{}
-\cvline{}{Member of the Core Sponsorship Team - Felicity 2013}{}
-\cvline{}{Member of the Core Organizing Team - Felicity 2013,2012, Organized and managed various events and other work during Felicity.}{}
+
+\section{ Miscellaneous - Positions of Responsibility}
+\cvline{}{Member of Core Council Parliament(2012--)}{}
+\cvline{}{Member of Constitution Drafting Committee(2013--)}{}
+\cvline{}{Member of the Sponsorship Team - Felicity 2013}{}
+\cvline{}{Member of the Organizing Team - Felicity 2012-2013}{}
 
 
 
@@ -106,7 +113,7 @@
 \newline{}
 {\small I hereby declare that the above information is correct to the best of my knowledge}{}{}
 \newline{}
-{\small Last Updated March 11th,2013}{}{}{}
+{\small Last Updated March 20,2014}{}{}{}
 
 
 \end{document}
